@@ -30,8 +30,10 @@ class ViewController: UIViewController, UIScrollViewDelegate {
             var imageView = UIImageView(image: image)
             
             // zentrieren des Inhalts
-            if let width = image?.size.width, height = image?.size.height {
+            if let width = image?.size.width {
                 imageView.frame.origin.x = (self.view.bounds.width-width)/2
+            }
+            if let height = image?.size.height {
                 imageView.frame.origin.y = (self.view.bounds.height-height)/2
             }
             
