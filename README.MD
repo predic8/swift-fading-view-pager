@@ -1,4 +1,4 @@
-Fading-View-Pager
+#Fading-View-Pager
 
 This Project belongs to [this](http://predic8.de/iOS-swift-fading-view-pager.htm) tutorial.
 
